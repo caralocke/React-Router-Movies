@@ -44,7 +44,7 @@ export default function App () {
 
         {/* Add one route that will take an `id` parameter after`/movies/` (ex: `/movies/2`, `/movies/3` where the id is dynamic) ' */}
         <Route path='/movies/:id'>
-          {/* Make second route load Movie and giving  it movie as props */}
+          {/* Make second route load Movie */}
           <Movie />
         </Route>
       </Switch>
